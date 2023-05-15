@@ -12,9 +12,7 @@ public class App {
 
         Thread.sleep(10000);
 
-        threadDin.stop();
-        threadDon.stop();
-        threadDan.stop();
+        System.exit(0);
 
 
     }

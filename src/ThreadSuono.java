@@ -10,7 +10,7 @@ public class ThreadSuono extends Thread{
     public void run() {
         while(true){
             campana.emettiSuono();
-
+            
             try {
                 sleep(1000);
             } catch (Exception e) {
